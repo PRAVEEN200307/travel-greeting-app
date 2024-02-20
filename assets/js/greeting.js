@@ -1,4 +1,8 @@
-var sakura = new Sakura('body');
+try{
+    var sakura = new Sakura('body');
+}catch(e){
+   console.log("link unload error")
+};
 
 const href =document.location.href;
 const url =new URL(href);
