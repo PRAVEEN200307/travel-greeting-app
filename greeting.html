@@ -6,24 +6,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Invitation</title>
+    <link rel="stylesheet" href="./node_modules/sakura-js/dist/sakura.min.css">
+
     <link rel="stylesheet" href="./assets/style/input.css">
 </head>
 
-<body class="bg-lime-200 flex justify-center mt-4 rounded">
-    <div class="bg-white w-7/12 p-5 text-center">
-        <div>
-            <h3>THE ONE</h3>
-            <h1 class="font-bold text-7xl">TOUR</h3>
-            <h1 class="font-bold text-7xl">INVITATION</h1>
+<body class="bg-lime-200 flex justify-center mt-4 rounded font-Arov items-center h-screen w-screen" >
+    <div class="bg-gray-100 w-7/12 p-5 text-center">
+        <div class="font-Arov flex flex-col gap-4">
+            <h3 class="text-3xl">THE ONE DAY</h3>
+            <h1 class=" text-7xl">TOUR</h3>
+            <h1 class=" text-7xl ">INVITATION</h1>
         </div>
-        <div>
-            <h1 class="font-bold text-6xl">28th feb</h1>
-            <h1>Need To Say</h1>
-            <h1>"Yes"</h1>
-            <h1> to</h1>
-            <span>PRAVEEN KUMAR</span>
+        <div class="flex flex-col gap-4 mt-5">
+            <h1 class="font-bold text-7xl font-cookie text-orange-500">28th feb</h1>
+            <h1 class="text-3xl">Need To Say</h1>
+            <h1 class="font-bold text-7xl font-cookie text-orange-500 flex-col gap-4">"Yes"</h1>
+            <h1 class="text-3xl" > to</h1>
+            <span class="text-3xl text-gray-500" id="setName">-PRAVEEN KUMAR-</span>
+            <a href="./index.html">Creating your greeting card with your name</a>
         </div>
     </div>
 </body>
-
+     
+    <script  src="./node_modules/sakura-js/dist/sakura.min.js"></script>
+    <script type="module" src="./assets/js/greeting.js"></script>
 </html>

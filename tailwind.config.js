@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./greeting.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+         Arov:['"Arvo",serif'],
+         cookie:['"Cokkie",cursive'],
+      }
+    },
   },
   plugins: [],
 }
