@@ -4,3 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
+.animate-updown{
+    animation-name: rightleft;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform: rotate(30deg);
+}
+
+
+@keyframes rightleft {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
+  }
+  

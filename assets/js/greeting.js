@@ -11,7 +11,7 @@ const userName=url.searchParams.get('name');
 const nameSpanEl =document.querySelector('#setName');
 
 if(userName){
-    nameSpanEl.textContent = userName.toUpperCase();
+    nameSpanEl.textContent = `-${userName.toUpperCase()}-`;
 }else{
     document.location.href ='./travel-greeting-app/index.html'
 }
