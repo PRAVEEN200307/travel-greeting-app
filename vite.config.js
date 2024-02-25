@@ -8,6 +8,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         greeting: resolve(__dirname, "greeting.html"),
+        greeting: resolve(__dirname, "./sakura-js/dist/sakura.min.js"),
       },
     },
   },
