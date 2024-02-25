@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 
 export default defineConfig({
-  base: "/travel-greeting-app/",
+  base: "/travel-greeting-app/index.html",
   build: {
     rollupOptions: {
       input: {
