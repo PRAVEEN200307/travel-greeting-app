@@ -1,0 +1,1 @@
+import"./input-DTQxRFpC.js";try{var c=new Sakura("body")}catch{console.log("link unload error")}const t=document.location.href,n=new URL(t),e=n.searchParams.get("name"),o=document.querySelector("#setName");e?o.textContent=`-${e.toUpperCase()}-`:document.location.href="./travel-greeting-app/index.html";

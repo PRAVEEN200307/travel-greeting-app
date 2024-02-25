@@ -1,0 +1,1 @@
+import"./input-DTQxRFpC.js";const o=document.querySelector("#formEl");o.addEventListener("submit",e=>{e.preventDefault();const t=document.forms.formEl[0].value;document.location.href="/travel-greeting-app/greeting.html?name="+t,console.log("form submitted")});
